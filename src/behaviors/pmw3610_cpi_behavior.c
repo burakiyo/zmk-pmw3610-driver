@@ -7,7 +7,7 @@
 #include <zephyr/logging/log.h>
 #include <zmk/behavior.h>
 
-#include "pmw3610.h"
+#include "pmw3610.c"
 
 LOG_MODULE_REGISTER(pmw3610_cpi_behavior, CONFIG_ZMK_LOG_LEVEL);
 
