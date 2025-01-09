@@ -5,7 +5,7 @@
 
 #include <zephyr/device.h>
 #include <zephyr/logging/log.h>
-#include <zmk/behavior.h>
+#include <drivers/behavior.h>
 
 #include "../pmw3610.h"
 
