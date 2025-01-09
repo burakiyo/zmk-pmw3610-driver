@@ -163,6 +163,10 @@ config PMW3610_ADJUSTABLE_MOUSESPEED
   bool "Enable Adujutable mouse speed"
   default n
 
+config PMW3610_CPI_BEHAVIOR
+    bool "Enable custom CPI behavior"
+    default n
+
 module = PMW3610
 module-str = PMW3610
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"

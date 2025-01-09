@@ -1,0 +1,12 @@
+description: >
+  Custom CPI behavior for PMW3610 sensor,
+  allowing increment or decrement by 200 DPI steps.
+
+compatible: "zmk,pmw3610-cpi-behavior"
+
+include: base-behavior.yaml
+
+properties:
+  increment:
+    type: boolean
+    description: "If true, increment CPI by 200. If false, decrement CPI by 200."
