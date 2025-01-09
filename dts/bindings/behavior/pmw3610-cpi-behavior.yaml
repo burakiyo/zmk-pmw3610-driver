@@ -7,7 +7,7 @@ compatible: "zmk,pmw3610-cpi-behavior"
 include: base-behavior.yaml
 
 properties:
-  "#sensor-binding-cells":
+  "#binding-cells":
     type: int
     required: true
     const: 0
