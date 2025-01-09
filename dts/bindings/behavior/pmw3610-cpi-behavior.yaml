@@ -7,10 +7,6 @@ compatible: "zmk,pmw3610-cpi-behavior"
 include: base-behavior.yaml
 
 properties:
-  "#binding-cells":
-    type: int
-    required: true
-    const: 0
   increment:
     type: boolean
     description: "If true, increment CPI by 200. If false, decrement CPI by 200."
