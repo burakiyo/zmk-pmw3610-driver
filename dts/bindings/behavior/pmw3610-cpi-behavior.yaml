@@ -4,7 +4,7 @@ description: >
 
 compatible: "zmk,pmw3610-cpi-behavior"
 
-include: base-behavior.yaml
+include: zero_param.yaml
 
 properties:
   increment:
