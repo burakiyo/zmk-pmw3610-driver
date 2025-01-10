@@ -327,7 +327,7 @@ static int set_cpi_if_needed(const struct device *dev, uint32_t cpi) {
     return 0;
 }
 
-static int increment_cpi(const struct device *dev)
+int increment_cpi(const struct device *dev)
 {
     struct pixart_data *data = dev->data;
     uint32_t new_cpi = data->curr_cpi + 200;
@@ -340,7 +340,7 @@ static int increment_cpi(const struct device *dev)
     return set_cpi_if_needed(dev, new_cpi);
 }
 
-static int decrement_cpi(const struct device *dev)
+int decrement_cpi(const struct device *dev)
 {
     struct pixart_data *data = dev->data;
     uint32_t new_cpi = data->curr_cpi - 200;
